@@ -43,8 +43,21 @@
       padding: 15px;
       font-size: 14px;
     }
-    .experience-card ul {
-      padding-left: 20px;
+    .card {
+      background-color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: 20px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #1b5e20;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -57,40 +70,32 @@
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm Aris Barsekhian 👋 — founder of Aris Logic. I specialize in data analysis, automation, and visualization using SQL, Python, Tableau, and Excel. This site represents my personal portfolio where I showcase selected projects, tools, and results I've delivered. Everything you see is built and maintained by me as part of my professional journey.</p>
+    <div class="card">
+      <p>Hi, I'm Aris Barsekhian 👋 — founder of Aris Logic. I’m a Data & Analytics Professional with a strong background in SQL, Python, Tableau, and Excel. I help organizations turn data into actionable insights through clean analysis, clear reporting, and automation.</p>
+      <p>With a solid academic background and hands-on experience, I focus on solving real-world problems through data-driven solutions. This site showcases my latest work and journey as I build and grow in this field.</p>
+      <a href="https://www.linkedin.com/in/aris-barsekhian/" target="_blank" class="button">Visit my LinkedIn</a>
+    </div>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <p>Coming soon! Stay tuned for real-world SQL, Tableau dashboards, and Python-powered data solutions.</p>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="experience-card">
-      <h3>Data Analytics Consultant</h3>
-      <p><strong>Company:</strong> Aris Logic</p>
-      <p><strong>Duration:</strong> Jan 2020 – Present · 5 yrs 7 mos</p>
-      <p><strong>Location:</strong> Los Angeles Metropolitan Area · Remote</p>
-      <ul>
-        <li>Developed and optimized automated data pipelines using SQL and Python for cross-industry clients.</li>
-        <li>Built and deployed dashboards in Tableau and Power BI for real-time insights and decision-making.</li>
-        <li>Delivered data consulting aligned with business goals to improve performance and resolve issues.</li>
-      </ul>
+    <div class="card">
+      <p>Coming soon! This section will include real-world SQL queries, dashboards built in Tableau and Power BI, and Python data analysis notebooks.</p>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:aris.barsekhian@gmail.com">aris.barsekhian@gmail.com</a></p>
-    <p>Phone: <a href="tel:+18183842284">(818) 384-2284</a></p>
+    <div class="card">
+      <p>Email: <a href="mailto:aris.barsekhian@gmail.com">aris.barsekhian@gmail.com</a></p>
+      <p>Phone: <a href="tel:+18183842284">(818) 384-2284</a></p>
+    </div>
   </section>
 
   <footer>
